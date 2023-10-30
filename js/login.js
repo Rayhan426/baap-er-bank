@@ -12,6 +12,6 @@ document.getElementById('btn-submit').addEventListener('click', function(){
         window.location.href = 'bank.html';
     }
     else{
-        alert('Please input valid e-mail or password.m');
+        alert('ratul er password wrong');
     }
 })

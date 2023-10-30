@@ -16,10 +16,10 @@
     <main>
         <section class="mt-14">
             <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white">
-                
+
                 <div class="bg-green-600 p-8 rounded-lg">
                     <h4 class="text-3xl font-semibold">Deposit</h4>
-                    <h2 class="text-4xl">$00</h2>
+                    <h2  class="text-4xl">$<span id="deposit-total">00</span></h2>
                 </div>
                 <div class="bg-red-300 p-8 rounded-lg">
                     <h4 class="text-3xl font-semibold">Withdraw</h4>
@@ -27,23 +27,27 @@
                 </div>
                 <div class="bg-sky-300 p-8 rounded-lg">
                     <h4 class="text-3xl font-semibold">Balance</h4>
-                    <h2 class="text-4xl">$1245</h2>
+                    <h2 class="text-4xl">$<span id="total-balance">1245</span></h2>
                 </div>
             </div>
         </section>
 
         <section class="mt-12">
             <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto ">
-                
+
                 <div class="bg-violet-700 p-8 pb-14 rounded-lg">
                     <h4 class="text-4xl font-semibold mb-3 text-white">Please Deposit</h4>
-                    <input id="deposit-field" class="block p-2 px-3 w-9/12 rounded" type="text" placeholder="$ Amount you want to deposit">
-                    <button id="deposit-btn" class="bg-green-600 px-6 py-2 mt-3 rounded text-white font-semibold text-2xl">Deposit</button>
+                    <input id="deposit-field" class="block p-2 px-3 w-9/12 rounded" type="text"
+                        placeholder="$ Amount you want to deposit">
+                    <button id="deposit-btn"
+                        class="bg-green-600 px-6 py-2 mt-3 rounded text-white font-semibold text-2xl">Deposit</button>
                 </div>
                 <div class="bg-purple-600  p-8 pb-14 rounded-lg">
                     <h4 class="text-4xl font-semibold mb-3 text-white">Please Withdraw</h4>
-                    <input id="withdraw-field" class="block p-2 px-3 w-9/12 rounded" type="text" placeholder="$ Amount you want to deposit">
-                    <button id="withdraw-btn" class="bg-rose-500 px-6 py-2 mt-3 rounded text-white font-semibold text-2xl">Withdraw</button>
+                    <input id="withdraw-field" class="block p-2 px-3 w-9/12 rounded" type="text"
+                        placeholder="$ Amount you want to wtihdraw">
+                    <button id="withdraw-btn"
+                        class="bg-rose-500 px-6 py-2 mt-3 rounded text-white font-semibold text-2xl">Withdraw</button>
                 </div>
 
         </section>
