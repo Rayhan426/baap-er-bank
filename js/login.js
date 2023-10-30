@@ -9,9 +9,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     console.log(email, pass);
 
     if (email === 'rayhan@gmail.com' && pass === 'rayhan704') {
-        console.log('vlaid user');
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('invalid user');
+        alert('Please input valid e-mail or password.m');
     }
 })
